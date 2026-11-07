@@ -1,0 +1,12 @@
+* text=auto
+
+# cmd.exe braucht CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.cs text eol=crlf diff=csharp
+*.md text
+*.manifest text eol=crlf
+
+*.ico binary
+*.png binary
